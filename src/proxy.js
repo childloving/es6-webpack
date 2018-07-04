@@ -6,16 +6,16 @@
       name: 'es3',
       sex: 'male',
       age: 15
-    }
+    };
     this.get = function(key) {
       return data[key]
-    }
+    };
     this.set = function(key, value) {
       if (key !== 'sex') {
         data[key] = value
       }
     }
-  }
+  };
 
   // 声明一个实例
   var person = new Person();

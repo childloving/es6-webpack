@@ -21,3 +21,7 @@ npm i webpack-dev-server -g
 ```shell
 npm start
 ```
+
+
+### 常量
+只读

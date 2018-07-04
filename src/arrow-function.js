@@ -7,13 +7,15 @@
     return v + 1
   });
   console.log(evens, odds);
-};
+}
 {
   // ES6
   let evens = [1, 2, 3, 4, 5];
   let odds = evens.map(v => v + 1);
   console.log(evens, odds);
-} {
+}
+
+{
   // ES3,ES5
   var factory = function() {
     this.a = 'a';
@@ -24,11 +26,11 @@
         return this.a
       }
     }
-  }
+  };
 
   console.log(new factory().c.b());
-};
-
+}
+// ES6
 {
   var factory = function() {
     this.a = 'a';
@@ -39,6 +41,6 @@
         return this.a
       }
     }
-  }
+  };
   console.log(new factory().c.b());
 }
